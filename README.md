@@ -138,7 +138,7 @@ Evaluation was performed using Google ADK Eval.
 - Eligibility Detection Accuracy: 94%
 - Security Detection Rate: 100%
 
-![Evaluation Result](images/evaluation_result.png)
+![Evaluation Result](images/evaluation_results.png)
 
 
 ## 🧠 Agent Skills

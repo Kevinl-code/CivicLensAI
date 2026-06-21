@@ -99,7 +99,7 @@ Clone the repository and install the required environment packages:
 
 ```bash
 git clone [https://github.com/kevinl-code/CivicLensAI.git](https://github.com/kevinl-code/CivicLensAI.git)
-cd civiclens_ai
+cd civiclens-ai
 pip install -r requirements.txt
 
 ```
@@ -118,7 +118,7 @@ streamlit run app.py
 Interact with and debug your agent graphs natively using the Google ADK UI:
 
 ```bash
-civiclens_ai> adk web
+civiclens-ai> adk web
 
 ```
 

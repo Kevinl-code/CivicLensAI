@@ -1,4 +1,20 @@
-# 🎓 Google AI Agents Intensive Course Concepts Demonstrated
+# 🏛️ CivicLensAI [![Built with Google ADK](https://img.shields.io/badge/Built%20With-Google%20ADK-blue.svg)](https://github.com/google/ai-toolkit) [![Framework-Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg)](https://streamlit.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) > 
+
+**Bridging the gap between complex bureaucracy and public understanding.** 
+CivicLensAI is a multi-agent document intelligence platform built using the **Google Agent Development Kit (ADK)**. It simplifies dense government notices, scholarship circulars, internship announcements, and public schemes into clear, actionable insights. ---
+
+## 🛑 The Problem Government and public sector communications are notoriously difficult to navigate. Due to dense legal language and poor formatting, citizens frequently miss critical information: * 
+
+⏳ **Deadlines:** Hidden deep within multi-page PDFs. * 
+📋 **Eligibility Criteria:** Vague or highly specific clauses that lead to immediate disqualification. * 
+📁 **Required Documents:** Fragmented lists of certificates, IDs, and affidavits spread across sections. * 
+🚶 **Action Steps:** A lack of clear, sequential instructions on *how* and *where* to apply. --- 
+
+## 💡 The Solution 
+**CivicLensAI** acts as an intelligent translator for public documents. By deploying a specialized, collaborative swarm of AI agents, the platform dissects official PDFs and text, instantly extracting critical details and setting up automated workflows to ensure users never miss an opportunity.
+
+
+#### 🎓 Google AI Agents Intensive Course Concepts Demonstrated
 
 | Course Concept | Implementation |
 |---------------|---------------|
@@ -143,7 +159,7 @@ Evaluation was performed using Google ADK Eval.
 
 ## 🧠 Agent Skills
 
-### Deadline Skill
+#### Deadline Skill
 
 Extracts:
 
@@ -151,7 +167,7 @@ Extracts:
 - Application Dates
 - Event Dates
 
-### Eligibility Skill
+#### Eligibility Skill
 
 Extracts:
 
@@ -159,7 +175,7 @@ Extracts:
 - Academic Requirements
 - Income Limits
 
-### Security Skill
+#### Security Skill
 
 Detects:
 
@@ -167,31 +183,31 @@ Detects:
 - Unsafe Instructions
 - Jailbreak Attempts
 
-# 🚀 Running CivicLens
+### 🚀 Running CivicLens
 
-## Streamlit UI
+#### Streamlit UI
 
-streamlit run app.py
+`streamlit run app.py`
 
-## Google ADK Studio
+#### Google ADK Studio
 
-adk web
+`adk web`
 
-## ADK Evaluation
+#### ADK Evaluation
 
-adk eval
+`adk eval`
 
-## MCP Server
+#### MCP Server
 
-python -m civiclens_adk.mcp.reminder_server
+`python -m civiclens_adk.mcp.reminder_server`
 
-## Verify Agent
+#### Verify Agent
 
-python -c "from civiclens_adk.agent import root_agent; print(root_agent.name)"
+`python -c "from civiclens_adk.agent import root_agent; print(root_agent.name)`
 
 
 
-## 🤖 Why Agents?
+### 🤖 Why Agents?
 
 Traditional AI chatbots provide generic answers.
 
@@ -206,9 +222,9 @@ The Coordinator Agent delegates work to experts and merges the results into a un
 This creates higher accuracy, modularity, and scalability than a single monolithic model.
 
 
-## Demo: 
+### Demo: 
 
-## 🔮 Future Roadmap
+### 🔮 Future Roadmap
 
 - Gmail Integration
 - WhatsApp Notifications

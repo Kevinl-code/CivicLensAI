@@ -27,16 +27,16 @@ Coordinator Agent
 
 ## Key Concepts Demonstrated
 
-#### ADK Multi-Agent System
+- ADK Multi-Agent System
 
 
-#### MCP Server
+- MCP Server
 
 
-#### Agent Skills
+- Agent Skills
 
 
-#### Security
+- Security
 
 
 #### Evaluation
@@ -45,19 +45,19 @@ Coordinator Agent
 
 ## Setup
 
-### Requirements
+*** Requirements
 
 `pip install -r requirements.txt`
 
-### Application
+*** Application
 
 `streamlit run app.py`
 
-### ADK UI
+*** ADK UI
 
 `project_directory>adk web`
 
-### MCP
+*** MCP
 
 `python -m civiclens_adk.mcp.reminder_server`
 

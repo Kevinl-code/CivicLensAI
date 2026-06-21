@@ -98,8 +98,8 @@ To ensure reliable parsing of legal and government literature, CivicLensAI is be
 Clone the repository and install the required environment packages:
 
 ```bash
-git clone [https://github.com/your-username/civiclens-ai.git](https://github.com/your-username/civiclens-ai.git)
-cd civiclens-ai
+git clone [https://github.com/kevinl-code/CivicLensAI.git](https://github.com/kevinl-code/CivicLensAI.git)
+cd civiclens_ai
 pip install -r requirements.txt
 
 ```
@@ -118,7 +118,7 @@ streamlit run app.py
 Interact with and debug your agent graphs natively using the Google ADK UI:
 
 ```bash
-project_directory> adk web
+civiclens_ai> adk web
 
 ```
 

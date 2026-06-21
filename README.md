@@ -27,19 +27,19 @@ Coordinator Agent
 
 ## Key Concepts Demonstrated
 
-### ADK Multi-Agent System
+#### ADK Multi-Agent System
 
 
-### MCP Server
+#### MCP Server
 
 
-### Agent Skills
+#### Agent Skills
 
 
-### Security
+#### Security
 
 
-### Evaluation
+#### Evaluation
 
 
 
@@ -56,6 +56,10 @@ Coordinator Agent
 ### ADK UI
 
 `project_directory>adk web`
+
+### MCP
+
+`python -m civiclens_adk.mcp.reminder_server`
 
 ## Demo
 

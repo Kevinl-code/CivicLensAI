@@ -1,0 +1,17 @@
+google-adk==2.3.0
+google-genai
+streamlit
+python-dotenv
+mcp==1.28.0
+pypdf
+python-docx
+reportlab
+pandas
+numpy
+requests
+pytest
+fastapi
+uvicorn
+pydantic
+aiosqlite
+matplotlib

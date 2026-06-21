@@ -29,31 +29,33 @@ Coordinator Agent
 
 ### ADK Multi-Agent System
 
-...
 
 ### MCP Server
 
-...
 
 ### Agent Skills
 
-...
 
 ### Security
 
-...
 
 ### Evaluation
 
-...
+
 
 ## Setup
 
-pip install -r requirements.txt
+### Requirements
 
-streamlit run app.py
+`pip install -r requirements.txt`
 
-adk web
+### Application
+
+`streamlit run app.py`
+
+### ADK UI
+
+`project_directory>adk web`
 
 ## Demo
 

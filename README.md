@@ -177,6 +177,13 @@ Evaluates inputs for adversarial risk factors:
 
 ## 🚀 Running CivicLens
 
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
 ### Streamlit UI
 
 ```bash
